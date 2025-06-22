@@ -1,0 +1,28 @@
+server:
+  port: 3000
+  host: localhost
+
+database:
+  driver: sqlite3
+  database: app.db
+  host: ""
+  port: ""
+  username: ""
+  password: ""
+# Для MySQL:
+# database:
+#   driver: mysql
+#   host: localhost
+#   port: 3306
+#   database: myapp
+#   username: root
+#   password: password
+
+# Для PostgreSQL:
+# database:
+#   driver: postgres
+#   host: localhost
+#   port: 5432
+#   database: myapp
+#   username: postgres
+#   password: password
